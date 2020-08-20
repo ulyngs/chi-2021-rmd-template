@@ -1,0 +1,96 @@
+---
+#conference and copyright meta
+setcopyright: acmlicensed #otherwise acmcopyright, none, etc...
+copyright-year: 2021
+acm-year: 2018
+acmDOI: 10.1145/1122445.1122456
+conference-short: CHI'21
+conference: CHI Conference on Human Factors in Computing Systems Proceedings
+conference-date: May 8--13, 2021
+conference-location: Yokohama, Japan
+acm-booktitle: CHI Conference on Human Factors in Computing Systems Proceedings (CHI 2021), May 8--13, 2021, Yokohama, Japan
+acm-price: 15.00
+acmISBN: 978-1-4503-XXXX-X/18/06
+
+# paper meta
+title: Writing CHI Proceedings Papers With R Markdown
+short-title: CHI Papers With R Markdown
+author:
+  - name: Ben Trovato
+    authornote: Both authors contributed equally to this research.
+    email: trovato\@corporation.com  #NOTE: you must escape the @
+    orcid: 1234-5678-9012
+  - name: G.K.M. Tobin
+    authornotemark: 1 #use this if you just want a mark
+    affiliation:
+      institution: Institute for Clarity in Documentation
+      streetaddress: P.O. Box 1212
+      city: Dublin
+      state: Ohio
+      postcode: 43017-6221
+    email: webmaster\@marysville-ohio.com
+  - name: Lars Thørväld
+    affiliation:
+      institution: The Thørväld Group
+      streetaddress: 1 The Thørväld Circle
+      city: Hekla
+      country: Iceland
+    email: larst\@affiliation.org
+  - name: Valerie Béranger
+    affiliation:
+      institution: Inria Paris-Rocquencourt
+      city: Rocquencourt
+      country: France
+  - name: Aparna Patel
+    affiliation:
+      institution: Rajiv Gandhi University
+      streetaddress: Rono-Hills
+      city: Doimukh
+      state: Arunachal Pradesh
+      country: India
+  - name: Huifen Chan
+    affiliation:
+      institution: Tsinghua University
+      streetaddress: 30 Shuangqing Rd
+      city: Haidian Qu
+      state: Beijing Shi
+      country: China
+  - name: Charles Palmer
+    affiliation:
+      institution: Palmer Research Laboratories
+      streetaddress: 8600 Datapoint Drive
+      city: San Antonio
+      state: Texas
+      postcode: 78229
+    email: cpalmer\@prl.com
+  - name: John Smith
+    affiliation:
+      institution: The Thørväld Group
+    email: jsmith\@affiliation.org
+  - name: Julius P. Kumquat
+    affiliation:
+      institution: The Kumquat Consortium
+    email: jpkumquat\@consortium.net
+#short-authors: Trovato and Tobin, et al.
+keywords: datasets, neural networks, gaze detection, text tagging
+teaser-figure: figures/sampleteaser.pdf
+teaser-caption: Seattle Mariners at Spring Training, 2010.
+teaser-description: Enjoying the baseball game from the third-base seats. Ichiro Suzuki preparing to bat.
+teaser-label: teaser
+
+# output options
+output: 
+  bookdown::pdf_document2: 
+    template: acmart-master/chi_2021_template.tex
+    keep_tex: true
+    citation_package: natbib
+    includes:
+      in_header: ccsxml.tex
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+# Test content
