@@ -6,6 +6,7 @@ bibliography: sample-bibliography.bib
 format: manuscript   #or acmsmall, acmlarge, acmtog, sigconf, or sigplan
 anonymous: false
 screen: true
+review: true
 
 #conference and copyright meta
 setcopyright: acmlicensed #or acmcopyright, none, etc...
