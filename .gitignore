@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+original.pdf
+sample-sigconf.tex
+comment.cut
+main_files
+main.tex
