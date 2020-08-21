@@ -1,4 +1,8 @@
 ---
+# choose template format
+format: manuscript
+anonymous: false
+
 #conference and copyright meta
 setcopyright: acmlicensed #otherwise acmcopyright, none, etc...
 copyright-year: 2021
