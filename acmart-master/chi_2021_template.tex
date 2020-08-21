@@ -22,7 +22,7 @@
 %% in the same archive or directory.)
 %%
 %% The first command in your LaTeX source must be the \documentclass command.
-\documentclass[$format$, $if(review)$review,$endif$$if(anonymous)$anonymous,$endif$$if(authorversion)$authorversion,$endif$]{acmart}
+\documentclass[$format$, $if(screen)$screen,$endif$$if(review)$review,$endif$$if(anonymous)$anonymous,$endif$$if(authorversion)$authorversion,$endif$]{acmart}
 
 \def\tightlist{} % UL 21 Aug 2020 stop pandoc from messing things up by putting lists in 'tightlist' command when no space between bullet points in Rmd file
 
@@ -656,7 +656,7 @@ To Robert, for the bagels and explaining CMYK and color spaces.
 %% The next two lines define the bibliography style to be used, and
 %% the bibliography file.
 \bibliographystyle{ACM-Reference-Format}
-\bibliography{sample-base}
+\bibliography{$bibliography$}
 
 %%
 %% If your work has an appendix, this is the place to put it.
