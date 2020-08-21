@@ -1,6 +1,6 @@
 ---
 # set bibliography path
-bibliography: sample-base.bib
+bibliography: sample-bibliography.bib
 
 # choose template format
 format: manuscript
