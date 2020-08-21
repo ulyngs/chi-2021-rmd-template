@@ -1,8 +1,10 @@
 ---
+# set bibliography path
+bibliography: sample-base.bib
+
 # choose template format
 format: manuscript
 anonymous: false
-bibliography: sample-base.bib
 screen: true
 
 #conference and copyright meta
