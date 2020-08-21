@@ -1,4 +1,4 @@
-# ACM CHI 2021 template for R Markdown (
+# ACM CHI 2021 template for R Markdown
 This R package provides a template for writing ACM CHI Proceedings papers in R Markdown, and compiling to PDF via the LaTeX templates from the ACM Master LaTeX Template (v. 1.71).
 
 ## Requirements
