@@ -24,6 +24,8 @@
 %% The first command in your LaTeX source must be the \documentclass command.
 \documentclass[$format$, $if(review)$review,$endif$$if(anonymous)$anonymous,$endif$$if(authorversion)$authorversion,$endif$]{acmart}
 
+\def\tightlist{} % UL 21 Aug 2020 stop pandoc from messing things up by putting lists in 'tightlist' command when no space between bullet points in Rmd file
+
 %%
 %% \BibTeX command to typeset BibTeX logo in the docs
 \AtBeginDocument{%
