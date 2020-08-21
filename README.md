@@ -15,6 +15,6 @@ For general advice on how to use R Markdown for academic writing, see e.g. https
 - replace the content in **main.Rmd** with your own fantastick work
 - click the 'Knit' button in RStudio to compile to pdf
 ![open main.Rmd](screenshots/2_main.png)
-![compile to pdf with the 'knit' button](3_compiled.png)
+![compile to pdf with the 'knit' button](screenshots/3_compiled.png)
 
 **NOTE: include the initial *setup_output* code chunk at the top of your .Rmd file, as it creates custom chunk options that allow you to e.g. add image descriptions for visually impaired readers.**
