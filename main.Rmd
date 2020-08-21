@@ -3,12 +3,12 @@
 bibliography: sample-bibliography.bib
 
 # choose template format
-format: manuscript
+format: manuscript   #or acmsmall, acmlarge, acmtog, sigconf, or sigplan
 anonymous: false
 screen: true
 
 #conference and copyright meta
-setcopyright: acmlicensed #otherwise acmcopyright, none, etc...
+setcopyright: acmlicensed #or acmcopyright, none, etc...
 copyright-year: 2021
 acm-year: 2018
 acmDOI: 10.1145/1122445.1122456
